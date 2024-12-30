@@ -3,55 +3,49 @@ import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a enthusiatic professional looking to create impact using AI. During my graduate degree in AI at Northeastern University, I have gained proficiency in cutting-edge, industry ready skills which I applied during my various projects and internships.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am an MS in AI student at Northeastern University with strong programming skills, having 4+ years of experience working with programming languages such as Python, R, Java, SQL and C. I have worked on extracting valuable insights using advanced machine learning techniques as part of my 3-year AI and ML honours specialisation programme with IBM. Having done multiple internships, I thrive in a fast-paced work environment. I have learned to be the ideal team member by incorporating adaptability and professionalism into my work ethic. While my education and certifications prove my strong technical foundation, my projects are a testament to my creative mind, problem-solving skills and drive to incorporate the best practices in the industry into my work. As the founder-president of the music club of my college, I have demonstrated strong leadership ability and effective communication skills. This experience along with the various group projects I have done have helped me demonstrate my teamwork and management skills. My hobbies include playing music, singing and staying fit. I have recently developed an interest in the world of finance. I aspire to work as an AI or machine learning engineer at a company which challenges me. My goal is to become someone that a business can look upon to solve problems`;
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "May 2024 - Aug 2024",
+    role: "AI Software Engineering Intern",
+    company: "Altius Strategic Consulting",
+    description: `Led  two projects which used GenAI technologies to automate commercial due diligence and contract analysis. During the 4 months of my internship, I provided POCs, created development cycle timelines and developed the core logic of the applications. I also contributed to the development of a portfolio analysis tool using the MERN stack, pushing it to the testing phase.`,
+    technologies: ['Retrival Augmented Generation','Web Scraping','Natural Language Processing',"Javascript", "React.js", "Next.js", "mongoDB"],
   },
   {
-    year: "2022 - 2023",
-    role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
+    year: "Jan 2024 - Apr 2024",
+    role: "Software Intern",
+    company: "Sensigo Inc.",
+    description: ` Developed a RAG based GenAI LLM chatbot for car repair, leveraging Python, AWS, JavaScript and 
+NLP using large scale multimodal data and customized recommendation algorithm.I also fine-tuned models using PyTorch, transforming them into scalable, efficient web-apps. I collaborated with cross functional teams, documenting and tracking progress using Confluence and Jira`,
+    technologies: ["Machine Learning", "Neural Networks", "Generative AI","SQL","AWS","Natural Language Processing"],
   },
   {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    year: "May 2023 - Sep 2023",
+    role: "AI/Machine Learning Intern",
+    company: "Icon Events & Holidays",
+    description: `Spearheaded data analytics initiatives using Python, SQL and Tableau, generating reports to describe and communicate data insights in a clean manner while solving analytical problems which contributed to a 12% increase in profit. As an intern, I identified AI opportunities while understanding product vision & user engagement strategy.I also led multiple diverse cross functional teams to make data-backed decisions for a new marketing plan and web ads increasing number of incoming clients by 20%.`,
+    technologies: ["Tableau", "Predictive analysis", "Strategic Communications", "Python"],
   },
 ];
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Local Directory Video Transcription",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Empowering Insights with ffmpeg and OpenAI's Whisper. Part of Ed-Tech initiaves for Hackatra 2024",
+    technologies: ["ffmpeg", "OpenAI Whisper", "Audio Transcription"],
   },
   {
-    title: "Task Management App",
+    title: "AI-driven Website Keyword Optimization",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Developed a system employing NLP techniques, including topical modeling and KeyBERT, to dynamically generate SEO-optimized keywords from web content",
+    technologies: ["Natural Language Processing", "Transformers", "Topical Modelling", "LLMs"],
   },
   {
     title: "Portfolio Website",
@@ -61,16 +55,16 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
-    title: "Blogging Platform",
+    title: "Real Time 2D Object Recognition",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Implemented a system that recognizes an object in real time from a given dataset.",
+    technologies: ["C++", "OpenCV", "Computer Vision", "Object Recognition"],
   },
 ];
 
 export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  address: "Boston, MA ",
+  phoneNo: "+1 (612)850-0389 ",
+  email: "desai.shrey@northeastern.edu",
 };
