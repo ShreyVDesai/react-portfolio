@@ -34,18 +34,46 @@ NLP using large scale multimodal data and customized recommendation algorithm.I 
 
 export const PROJECTS = [
   {
+    title: "Financial Analysis Bot",
+    image: project1,
+    description:
+      "Developed a financial analysis chatbot using ChatGPT’s API for Fortune 500 companies. \n Integrated SEC’s EDGAR API to ensure the latest and accurate information using the companies’ 10-Q reports. \n Implemented sentiment analysis on upper management’s press release for more humanized context.",
+    technologies: ["LLMs", "Financial Analysis", "ChatGPT"],
+  },
+  {
+    title: "Audio Descriptive Generation for the Visually Impaired",
+    image: project1,
+    description:
+      "Developed a GenAI tool for the visually impaired, increasing access in educational, artistic and other domains. Created a Flask-based frontend web application and integrated the system with it. Conducted interviews and usability tests with real-world users from non-profits like Enabling Access.",
+    technologies: ["LLMs", "Flask", "Access Tool"],
+  },
+  {
+    title: "Onboarding Chatbot for New Employees",
+    image: project1,
+    description:
+      "Developed an onboarding LLM chatbot for new employees for the GMG Summer of Code hackathon. Employed langchain to retrieve references from company policy documents to generate accurate textual answers. Implemented a simplistic user interface facilitating efficient onboarding to reduce the workload of HR employees ",
+    technologies: ["RAG", "Langchain", "React"],
+  },
+  {
+    title: "Disaster Tweet Classification",
+    image: project1,
+    description:
+      "Built a classification model to identify disaster tweets using NLP models with TF-IDF and Bag of Words (BoW) features. Applied text preprocessing techniques including tokenization, stemming, lemmatization, and sentiment analysis to improve model performance. Optimized model with a soft Voting Classifier and hyperparameter tuning, achieving high accuracy and robust results through cross-validation.",
+    technologies: ["NLP", "Logisitic Regression", "TFIDF", "SVM", "Naïve Bayes"],
+  },
+  {
     title: "Local Directory Video Transcription",
     image: project1,
     description:
-      "Empowering Insights with ffmpeg and OpenAI's Whisper. Part of Ed-Tech initiaves for Hackatra 2024",
+      "Developed a video transcription tool integrating ffmpeg and OpenAI's Whisper for accurate speech-to-text conversion. Submitted project in Hackatra 2024, showing innovation in automating video transcription for educational use cases. Implemented scalable solution with low barrier entry across various platforms using Python.  ",
     technologies: ["ffmpeg", "OpenAI Whisper", "Audio Transcription"],
   },
   {
     title: "AI-driven Website Keyword Optimization",
     image: project2,
     description:
-      "Developed a system employing NLP techniques, including topical modeling and KeyBERT, to dynamically generate SEO-optimized keywords from web content",
-    technologies: ["Natural Language Processing", "Transformers", "Topical Modelling", "LLMs"],
+      "Developed a system employing NLP techniques, to generate SEO-optimized keywords from web content using nltk. Integrated a word2vec model to assess semantic alignment between generated & defined keywords for better relevance. Compared multiple models, optimizing website keyword generation using diverse techniques. ",
+    technologies: ["BERT", "Topical modelling", "RAKE","Transformers"],
   },
   {
     title: "Portfolio Website",
@@ -55,11 +83,60 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
+    title: "Photo Editor in Java",
+    image: project3,
+    description:
+      "Developed a photo editor in Java using design concepts like command design pattern to ensure code reusability. Conducted thorough unit testing using jUnit and documentation, following industry’s best practices. Leveraged Java Swing to implement a modular frontend, building an end-to-end application. ",
+    technologies: ["Design Patterns", "jUnit", "jSwing"],
+  },
+  {
+    title: "Pool Table Simulator",
+    image: project3,
+    description:
+      "Leveraged OOP concepts in Java to create a pool table simulator including physics concepts like collisions. Applied Model-View-Controller architecture and double dispatch to maximize code cohesiveness and reusability. Created documentation and conducted regular code reviews, adhering to best software development practices. ",
+    technologies: ["Object Oriented Programming", "Model-View-Controller", "Java"],
+  },
+  {
+    title: "Skin Cancer Detection",
+    image: project3,
+    description:
+      "Collaborated in developing an innovative system for skin cancer detection, utilizing the HAM 10000 dataset. Employed CNNs using TensorFlow & transfer learning, optimizing performance through hyperparameter tuning. Implemented an intuitive UI for medical professionals, facilitating efficient analysis of diagnostic results.",
+    technologies: ["CNNs", "Image Processing", "Transfer Learning"],
+  },
+  {
+  title: "Augmented Reality using C++",
+  image: project3,
+  description:
+    "Developed a system employing AR techniques for marker-based AR to display objects on a chessboard. Integrated ARUCO and SIFT markers as alternative marker options for the system. Constructed an end-to-end system from camera calibration to feature detection & displaying shape on the system. ",
+  technologies: ["Marker-baser AR", "ARUCO", "SIFT"],
+  },
+  {
     title: "Real Time 2D Object Recognition",
     image: project4,
     description:
-      "Implemented a system that recognizes an object in real time from a given dataset.",
+      "Constructed a system that recognizes an object in real time from a given training dataset using C++. Employed various techniques such as image segmentation, histogram, edge detection and a distance metric to calculate the most similar image to the given image to classify and recognize the object. Extended the project to recognize emotions from face pictures using python and Haar Cascades.",
     technologies: ["C++", "OpenCV", "Computer Vision", "Object Recognition"],
+  },
+  {
+    title: "Anoma-Li: An anomaly detection library",
+    image: project4,
+    description:
+      "Developed Anoma-Li, an anomaly detection package featuring K-Means, Isolation Forest, K-NN, and MAD algorithms. Engineered a solution for dataset creation, outlier detection, and anomaly visualization in various graph formats. Enhanced capabilities by integrating multiple detection methods, providing users with flexible anomaly detection tools. ",
+    technologies: ["KMeans, KNN, Outlier Detection"],
+  },
+  {
+    title: "Forest Fire Detection using CNNs",
+    image: project4,
+    description:
+      "Developed a system employing CNNs to raise an alarm if a given image of a forest has a forest fire. Performed hyperparameter tuning and data augmentation to eliminate bias and choose a ‘best fit’ model. Incorporated early stopping and dropout layers to prevent overfitting.",
+    technologies: ["CNNs", "Hyperparameter tuning", "Early Stopping"],
+  },
+  {
+    title: "Wind Energy Prediction",
+    image: project4,
+    description:
+      "Engineered advanced ML regressor algorithms, time series and LSTM models for precise wind energy forecasting, significantly enhancing power grid stability and reliability. Authored and presented a research paper at AIST 2022, published by IEEE, demonstrating cutting-edge time series forecasting techniques in renewable energy. Leveraged Python to develop AI-driven solutions for predictive wind power analysis, enabling efficient power balancing and proactive energy management. ",
+    technologies: ["LSTMs", "Time Series Analysis", "Regression", "Data Cleaning"],
   },
 ];
 
